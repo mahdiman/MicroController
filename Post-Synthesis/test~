@@ -1,0 +1,52 @@
+do sim/ienableregister.do
+# vsim -gui work.iEnableRegister_n8 
+# Loading work.iEnableRegister_n8
+# Loading work.ndff_n8
+# Loading work.DFFARX1
+# Loading work.INVX0
+# Loading work.DELLN1X2
+# Loading work.AO22X2
+# Loading work.DELLN2X2
+# Loading work.AO22X1
+# Loading work.INVX4
+# Loading work.NAND4X0
+# Loading work.NOR4X0
+# Loading work.OR3X1
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(9): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[7] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(9): [TFMPC] - Missing connection for port 'QN'.
+# Loading work.s_dffarx1_Q
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(10): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[6] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(10): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(11): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[5] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(11): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[4] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(12): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(13): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[3] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(13): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[2] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(14): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(15): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[1] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(15): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-3017) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(16): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /iEnableRegister_n8/in_reg/\output_reg[0] 
+# ** Warning: (vsim-3722) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(16): [TFMPC] - Missing connection for port 'QN'.
+# ** Error: (vsim-3063) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(17): Port 'IN' not found in the connected module (1st connection).
+#         Region: /iEnableRegister_n8/in_reg/U9
+# ** Error: (vsim-3063) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(18): Port 'IN' not found in the connected module (1st connection).
+#         Region: /iEnableRegister_n8/in_reg/U11
+# ** Error: (vsim-3063) /home/ahmad/Desktop/vlsi-project/verilog/ienreg.vo(63): Port 'IN' not found in the connected module (1st connection).
+#         Region: /iEnableRegister_n8/U12
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./sim/ienableregister.do PAUSED at line 1
+
+
+

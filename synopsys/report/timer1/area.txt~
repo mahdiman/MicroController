@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : timer1_1
+Version: E-2010.12-SP5-3
+Date   : Thu Apr 30 22:19:11 2015
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht_pg (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref/models/saed90nm_typ_ht_pg.db)
+    saed90nm_typ_ht (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref-old/models/saed90nm_typ_ht.db)
+
+Number of ports:                           21
+Number of nets:                           184
+Number of cells:                          134
+Number of combinational cells:            109
+Number of sequential cells:                18
+Number of macros:                           0
+Number of buf/inv:                         14
+Number of references:                      30
+
+Combinational area:       1384.778002
+Noncombinational area:    1706.805025
+Net Interconnect area:      65.061336  
+
+Total cell area:          3091.583027
+Total area:               3156.644363
+1

@@ -1,0 +1,146 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : timer1_1
+Version: E-2010.12-SP5-3
+Date   : Sun Apr 26 19:08:41 2015
+****************************************
+
+Operating Conditions: BEST   Library: saed90nm_min
+Wire Load Model Mode: enclosed
+
+  Startpoint: u1/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: clk_counter_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           8000                  saed90nm_min
+  timer1_1_DW01_inc_2
+                     ForQA                 saed90nm_min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock internal_clock (rise edge)                        0.00       0.00
+  clock network delay (ideal)                             0.40       0.40
+  u1/output_reg[2]/CLK (DFFARX1)                          0.00       0.40 r
+  u1/output_reg[2]/Q (DFFARX1)                            0.19       0.59 f
+  u1/output[2] (ndff_n8_0)                                0.00       0.59 f
+  U126/Q (XOR2X1)                                         0.08       0.67 f
+  U193/Q (AND2X1)                                         0.05       0.71 f
+  U194/Q (OA22X1)                                         0.05       0.76 f
+  U195/Q (OR4X1)                                          0.05       0.81 f
+  U196/QN (NOR2X0)                                        0.03       0.84 r
+  U98/QN (INVX0)                                          0.15       0.99 f
+  U119/Q (AND2X1)                                         0.07       1.06 f
+  add_82_aco/A[0] (timer1_1_DW01_inc_2)                   0.00       1.06 f
+  add_82_aco/U1_1_1/C1 (HADDX1)                           0.31       1.37 f
+  add_82_aco/U1_1_2/C1 (HADDX1)                           0.35       1.73 f
+  add_82_aco/U1_1_3/C1 (HADDX1)                           0.35       2.08 f
+  add_82_aco/U1_1_4/C1 (HADDX1)                           0.35       2.44 f
+  add_82_aco/U1_1_5/C1 (HADDX1)                           0.35       2.79 f
+  add_82_aco/U1_1_6/C1 (HADDX1)                           0.35       3.14 f
+  add_82_aco/U2/Q (XOR2X1)                                0.10       3.25 r
+  add_82_aco/SUM[7] (timer1_1_DW01_inc_2)                 0.00       3.25 r
+  U120/Q (AO22X1)                                         0.05       3.30 r
+  clk_counter_reg[7]/D (DFFARX1)                          0.00       3.30 r
+  data arrival time                                                  3.30
+
+  clock internal_clock (rise edge)                       10.00      10.00
+  clock network delay (ideal)                             0.40      10.40
+  clock uncertainty                                      -0.30      10.10
+  clk_counter_reg[7]/CLK (DFFARX1)                        0.00      10.10 r
+  library setup time                                     -0.05      10.05
+  data required time                                                10.05
+  --------------------------------------------------------------------------
+  data required time                                                10.05
+  data arrival time                                                 -3.30
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.76
+
+
+  Startpoint: add_bus[5] (input port clocked by internal_clock)
+  Endpoint: u2/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           8000                  saed90nm_min
+  ndff_n8_2          8000                  saed90nm_min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  input external delay                     1.00       1.40 r
+  add_bus[5] (in)                          0.00       1.40 r
+  U110/QN (NOR3X0)                         0.04       1.44 f
+  U108/Q (AND4X1)                          0.07       1.51 f
+  U87/QN (NAND2X0)                         0.07       1.59 r
+  U99/QN (NOR3X0)                          0.24       1.83 f
+  u2/E (ndff_n8_2)                         0.00       1.83 f
+  u2/U2/QN (INVX0)                         0.16       1.98 r
+  u2/U4/Q (AO22X1)                         0.07       2.05 r
+  u2/output_reg[0]/D (DFFARX1)             0.00       2.05 r
+  data arrival time                                   2.05
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  u2/output_reg[0]/CLK (DFFARX1)           0.00      10.10 r
+  library setup time                      -0.05      10.05
+  data required time                                 10.05
+  -----------------------------------------------------------
+  data required time                                 10.05
+  data arrival time                                  -2.05
+  -----------------------------------------------------------
+  slack (MET)                                         8.00
+
+
+  Startpoint: u1/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: data_bus[2]
+            (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           8000                  saed90nm_min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  u1/output_reg[2]/CLK (DFFARX1)           0.00       0.40 r
+  u1/output_reg[2]/Q (DFFARX1)             0.19       0.59 f
+  u1/output[2] (ndff_n8_0)                 0.00       0.59 f
+  u6/Input[2] (tsb_n8_1)                   0.00       0.59 f
+  u6/Output_tri[2]/Q (TNBUFFHX4)           6.73       7.32 f
+  u6/Output[2] (tsb_n8_1)                  0.00       7.32 f
+  data_bus[2] (inout)                      0.00       7.32 f
+  data arrival time                                   7.32
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  output external delay                   -1.00       9.10
+  data required time                                  9.10
+  -----------------------------------------------------------
+  data required time                                  9.10
+  data arrival time                                  -7.32
+  -----------------------------------------------------------
+  slack (MET)                                         1.78
+
+
+1

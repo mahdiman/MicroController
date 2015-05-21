@@ -1,0 +1,136 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : gpio_n8_1
+Version: E-2010.12-SP5-3
+Date   : Sun Apr 26 16:02:44 2015
+****************************************
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+  Startpoint: data_modu/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: data_modu/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gpio_n8_1          8000                  saed90nm_max
+  ndff_n3            ForQA                 saed90nm_max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock internal_clock (rise edge)                        0.00       0.00
+  clock network delay (ideal)                             0.40       0.40
+  data_modu/output_reg[0]/CLK (DFFARX2)                   0.00       0.40 r
+  data_modu/output_reg[0]/QN (DFFARX2)                    1.23       1.63 f
+  data_modu/U3/QN (INVX0)                                 2.45       4.08 r
+  data_modu/U5/Q (AO22X1)                                 2.52       6.60 r
+  data_modu/output_reg[0]/D (DFFARX2)                     0.00       6.60 r
+  data arrival time                                                  6.60
+
+  clock internal_clock (rise edge)                       10.00      10.00
+  clock network delay (ideal)                             0.40      10.40
+  clock uncertainty                                      -0.30      10.10
+  data_modu/output_reg[0]/CLK (DFFARX2)                   0.00      10.10 r
+  library setup time                                     -0.77       9.33
+  data required time                                                 9.33
+  --------------------------------------------------------------------------
+  data required time                                                 9.33
+  data arrival time                                                 -6.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.73
+
+
+  Startpoint: RW (input port clocked by internal_clock)
+  Endpoint: data_modu/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gpio_n8_1          8000                  saed90nm_max
+  ndff_n3            ForQA                 saed90nm_max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  input external delay                     1.00       1.40 r
+  RW (in)                                  0.00       1.40 r
+  U48/QN (INVX32)                          0.02       1.42 f
+  U50/QN (NAND2X4)                         0.23       1.65 r
+  U56/QN (NOR4X0)                          0.31       1.96 f
+  U55/Q (AND4X1)                           0.55       2.51 f
+  U54/Q (AND3X1)                           0.51       3.02 f
+  data_modu/E (ndff_n3)                    0.00       3.02 f
+  data_modu/U8/QN (INVX2)                  2.02       5.04 r
+  data_modu/U5/Q (AO22X1)                  2.28       7.32 r
+  data_modu/output_reg[0]/D (DFFARX2)      0.00       7.33 r
+  data arrival time                                   7.33
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  data_modu/output_reg[0]/CLK (DFFARX2)
+                                           0.00      10.10 r
+  library setup time                      -0.77       9.33
+  data required time                                  9.33
+  -----------------------------------------------------------
+  data required time                                  9.33
+  data arrival time                                  -7.33
+  -----------------------------------------------------------
+  slack (MET)                                         2.00
+
+
+  Startpoint: data_modu/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: IOPINS[2] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gpio_n8_1          8000                  saed90nm_max
+  mux2_bit_1_4       ForQA                 saed90nm_max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock internal_clock (rise edge)                        0.00       0.00
+  clock network delay (ideal)                             0.40       0.40
+  data_modu/output_reg[2]/CLK (DFFARX2)                   0.00       0.40 r
+  data_modu/output_reg[2]/Q (DFFARX2)                     1.10       1.50 f
+  data_modu/output[2] (ndff_n3)                           0.00       1.50 f
+  mod2OrBus/s0 (mux2_bit_1_4)                             0.00       1.50 f
+  mod2OrBus/U1/QN (INVX16)                                0.16       1.66 r
+  mod2OrBus/U4/Q (AND2X4)                                 0.71       2.37 r
+  mod2OrBus/U3/Q (OR2X2)                                  0.38       2.76 r
+  mod2OrBus/x (mux2_bit_1_4)                              0.00       2.76 r
+  dataTsb2/Input (tsb_bit_1_30)                           0.00       2.76 r
+  dataTsb2/Output_tri/Q (TNBUFFHX32)                     12.56      15.32 r
+  dataTsb2/Output (tsb_bit_1_30)                          0.00      15.32 r
+  IOPINS[2] (inout)                                       0.14      15.45 r
+  data arrival time                                                 15.45
+
+  clock internal_clock (rise edge)                       10.00      10.00
+  clock network delay (ideal)                             0.40      10.40
+  clock uncertainty                                      -0.30      10.10
+  output external delay                                  -1.00       9.10
+  data required time                                                 9.10
+  --------------------------------------------------------------------------
+  data required time                                                 9.10
+  data arrival time                                                -15.45
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -6.35
+
+
+1

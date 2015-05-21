@@ -1,0 +1,3336 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 40
+        -max_paths 40
+Design : iEnableRegister_n8
+Version: E-2010.12-SP5-3
+Date   : Sat May  2 20:15:09 2015
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht_pg
+Wire Load Model Mode: top
+
+  Startpoint: in_reg/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[2]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U4/Q (AO22X1)                   0.1324     0.9203 r
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[3]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[3]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U5/Q (AO22X1)                   0.1324     0.9203 r
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[4]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[4]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U6/Q (AO22X1)                   0.1324     0.9203 r
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[5]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[5]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U7/Q (AO22X1)                   0.1324     0.9203 r
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[6]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[6]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U8/Q (AO22X1)                   0.1324     0.9203 r
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[7]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[7]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/U10/Q (AO22X1)                  0.1324     0.9203 r
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     0.9443 r
+  data arrival time                                 0.9443
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9443
+  -----------------------------------------------------------
+  slack (MET)                                       0.3374
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.3927     0.7927 r
+  in_reg/U2/Q (AO22X1)                   0.1358     0.9285 r
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     0.9525 r
+  data arrival time                                 0.9525
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9525
+  -----------------------------------------------------------
+  slack (MET)                                       0.3455
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.3932     0.7932 r
+  in_reg/U3/Q (AO22X1)                   0.1359     0.9291 r
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     0.9532 r
+  data arrival time                                 0.9532
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -0.9532
+  -----------------------------------------------------------
+  slack (MET)                                       0.3461
+
+
+  Startpoint: in_reg/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[2]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U4/Q (AO22X1)                   0.1751     0.9949 f
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[3]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[3]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U5/Q (AO22X1)                   0.1751     0.9949 f
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[4]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[4]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U6/Q (AO22X1)                   0.1751     0.9949 f
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[5]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[5]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U7/Q (AO22X1)                   0.1751     0.9949 f
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[6]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[6]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U8/Q (AO22X1)                   0.1751     0.9949 f
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[7]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[7]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/U10/Q (AO22X1)                  0.1751     0.9949 f
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     1.0190 f
+  data arrival time                                 1.0190
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0190
+  -----------------------------------------------------------
+  slack (MET)                                       0.3730
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.4245     0.8245 f
+  in_reg/U2/Q (AO22X1)                   0.1779     1.0024 f
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     1.0265 f
+  data arrival time                                 1.0265
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0265
+  -----------------------------------------------------------
+  slack (MET)                                       0.3806
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.4250     0.8250 f
+  in_reg/U3/Q (AO22X1)                   0.1780     1.0031 f
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     1.0271 f
+  data arrival time                                 1.0271
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -1.0271
+  -----------------------------------------------------------
+  slack (MET)                                       0.3812
+
+
+  Startpoint: dataBus[1] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[1] (inout)                     0.0000     1.9000 r
+  in_reg/d[1] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U3/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4641
+
+
+  Startpoint: dataBus[0] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[0] (inout)                     0.0000     1.9000 r
+  in_reg/d[0] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U2/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4641
+
+
+  Startpoint: dataBus[2] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[2] (inout)                     0.0000     1.9000 r
+  in_reg/d[2] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U4/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[3] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[3] (inout)                     0.0000     1.9000 r
+  in_reg/d[3] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U5/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[4] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[4] (inout)                     0.0000     1.9000 r
+  in_reg/d[4] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U6/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[5] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[5] (inout)                     0.0000     1.9000 r
+  in_reg/d[5] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U7/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[6] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[6] (inout)                     0.0000     1.9000 r
+  in_reg/d[6] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U8/Q (AO22X1)                   0.1471     2.0471 r
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[7] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  dataBus[7] (inout)                     0.0000     1.9000 r
+  in_reg/d[7] (ndff_n8)                  0.0000     1.9000 r
+  in_reg/U10/Q (AO22X1)                  0.1471     2.0471 r
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     2.0711 r
+  data arrival time                                 2.0711
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.0711
+  -----------------------------------------------------------
+  slack (MET)                                       1.4642
+
+
+  Startpoint: dataBus[2] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[2] (inout)                     0.0000     1.9000 f
+  in_reg/d[2] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U4/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[3] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[3] (inout)                     0.0000     1.9000 f
+  in_reg/d[3] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U5/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[4] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[4] (inout)                     0.0000     1.9000 f
+  in_reg/d[4] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U6/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[5] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[5] (inout)                     0.0000     1.9000 f
+  in_reg/d[5] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U7/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[6] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[6] (inout)                     0.0000     1.9000 f
+  in_reg/d[6] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U8/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[7] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[7] (inout)                     0.0000     1.9000 f
+  in_reg/d[7] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U10/Q (AO22X1)                  0.1943     2.0943 f
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[0] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[0] (inout)                     0.0000     1.9000 f
+  in_reg/d[0] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U2/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: dataBus[1] (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  dataBus[1] (inout)                     0.0000     1.9000 f
+  in_reg/d[1] (ndff_n8)                  0.0000     1.9000 f
+  in_reg/U3/Q (AO22X1)                   0.1943     2.0943 f
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     2.1183 f
+  data arrival time                                 2.1183
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.1183
+  -----------------------------------------------------------
+  slack (MET)                                       1.4724
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U4/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U5/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U6/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U7/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U8/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U10/Q (AO22X1)                  0.2334     2.3594 f
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U2/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  rd_wr (in)                             0.0000     1.9000 f
+  U14/QN (INVX0)                         0.0705     1.9705 r
+  U13/QN (NOR2X0)                        0.1555     2.1261 f
+  in_reg/E (ndff_n8)                     0.0000     2.1261 f
+  in_reg/U3/Q (AO22X1)                   0.2334     2.3594 f
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     2.3834 f
+  data arrival time                                 2.3834
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.3834
+  -----------------------------------------------------------
+  slack (MET)                                       1.7375
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U3/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U2/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U4/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U5/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U6/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U7/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U8/Q (AO22X1)                   0.1952     2.3643 r
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U14/QN (INVX0)                         0.0609     1.9609 f
+  U13/QN (NOR2X0)                        0.2082     2.1691 r
+  in_reg/E (ndff_n8)                     0.0000     2.1691 r
+  in_reg/U10/Q (AO22X1)                  0.1952     2.3643 r
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     2.3883 r
+  data arrival time                                 2.3883
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0930     0.6070
+  data required time                                0.6070
+  -----------------------------------------------------------
+  data required time                                0.6070
+  data arrival time                                -2.3883
+  -----------------------------------------------------------
+  slack (MET)                                       1.7813
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[2]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U4/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[2]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[3]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U5/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[3]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[4]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U6/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[4]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[5]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U7/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[5]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[6]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U8/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[6]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[7]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U10/Q (AO22X1)                  0.2334     2.4177 f
+  in_reg/output_reg[7]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U2/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[0]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: addressBus[2]
+              (input port clocked by internal_clock)
+  Endpoint: in_reg/output_reg[1]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  addressBus[2] (in)                     0.0000     1.9000 r
+  U8/Q (OR4X1)                           0.1342     2.0342 r
+  U13/QN (NOR2X0)                        0.1501     2.1843 f
+  in_reg/E (ndff_n8)                     0.0000     2.1843 f
+  in_reg/U3/Q (AO22X1)                   0.2334     2.4177 f
+  in_reg/output_reg[1]/D (DFFARX1)       0.0240     2.4417 f
+  data arrival time                                 2.4417
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.7000 r
+  library hold time                     -0.0541     0.6459
+  data required time                                0.6459
+  -----------------------------------------------------------
+  data required time                                0.6459
+  data arrival time                                -2.4417
+  -----------------------------------------------------------
+  slack (MET)                                       1.7958
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.3927     0.7927 r
+  in_reg/output[0] (ndff_n8)             0.0000     0.7927 r
+  U7/Q (AND4X1)                          0.2897     1.0824 r
+  globalInt (out)                        0.4643     1.5467 r
+  data arrival time                                 1.5467
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5467
+  -----------------------------------------------------------
+  slack (MET)                                       2.3467
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.3932     0.7932 r
+  in_reg/output[1] (ndff_n8)             0.0000     0.7932 r
+  U7/Q (AND4X1)                          0.2893     1.0825 r
+  globalInt (out)                        0.4643     1.5468 r
+  data arrival time                                 1.5468
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5468
+  -----------------------------------------------------------
+  slack (MET)                                       2.3468
+
+
+  Startpoint: in_reg/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[2] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[2]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[2] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[2] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[2]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[2] (tsb_n8)             0.0000     1.0311 r
+  dataBus[2] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[3]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[3] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[3]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[3] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[3] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[3]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[3] (tsb_n8)             0.0000     1.0311 r
+  dataBus[3] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[4]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[4] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[4]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[4] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[4] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[4]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[4] (tsb_n8)             0.0000     1.0311 r
+  dataBus[4] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[5]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[5] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[5]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[5] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[5] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[5]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[5] (tsb_n8)             0.0000     1.0311 r
+  dataBus[5] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[6]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[6] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[6]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[6] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[6] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[6]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[6] (tsb_n8)             0.0000     1.0311 r
+  dataBus[6] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[7]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[7] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[7]/Q (DFFARX1)       0.3879     0.7879 r
+  in_reg/output[7] (ndff_n8)             0.0000     0.7879 r
+  dataout/Input[7] (tsb_n8)              0.0000     0.7879 r
+  dataout/Output_tri[7]/Z (TNBUFFX1)     0.2432     1.0311 r
+  dataout/Output[7] (tsb_n8)             0.0000     1.0311 r
+  dataBus[7] (inout)                     0.5193     1.5504 r
+  data arrival time                                 1.5504
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5504
+  -----------------------------------------------------------
+  slack (MET)                                       2.3504
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[0] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.3927     0.7927 r
+  in_reg/output[0] (ndff_n8)             0.0000     0.7927 r
+  dataout/Input[0] (tsb_n8)              0.0000     0.7927 r
+  dataout/Output_tri[0]/Z (TNBUFFX1)     0.2482     1.0409 r
+  dataout/Output[0] (tsb_n8)             0.0000     1.0409 r
+  dataBus[0] (inout)                     0.5193     1.5602 r
+  data arrival time                                 1.5602
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5602
+  -----------------------------------------------------------
+  slack (MET)                                       2.3602
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[1] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.3932     0.7932 r
+  in_reg/output[1] (ndff_n8)             0.0000     0.7932 r
+  dataout/Input[1] (tsb_n8)              0.0000     0.7932 r
+  dataout/Output_tri[1]/Z (TNBUFFX1)     0.2484     1.0416 r
+  dataout/Output[1] (tsb_n8)             0.0000     1.0416 r
+  dataBus[1] (inout)                     0.5193     1.5609 r
+  data arrival time                                 1.5609
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5609
+  -----------------------------------------------------------
+  slack (MET)                                       2.3609
+
+
+  Startpoint: in_reg/output_reg[2]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[2] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[2]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[2]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[2] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[2] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[2]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[2] (tsb_n8)             0.0000     1.0449 f
+  dataBus[2] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[3]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[3] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[3]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[3]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[3] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[3] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[3]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[3] (tsb_n8)             0.0000     1.0449 f
+  dataBus[3] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[4]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[4] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[4]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[4]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[4] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[4] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[4]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[4] (tsb_n8)             0.0000     1.0449 f
+  dataBus[4] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[5]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[5] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[5]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[5]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[5] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[5] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[5]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[5] (tsb_n8)             0.0000     1.0449 f
+  dataBus[5] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[6]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[6] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[6]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[6]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[6] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[6] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[6]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[6] (tsb_n8)             0.0000     1.0449 f
+  dataBus[6] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[7]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[7] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[7]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[7]/Q (DFFARX1)       0.4199     0.8199 f
+  in_reg/output[7] (ndff_n8)             0.0000     0.8199 f
+  dataout/Input[7] (tsb_n8)              0.0000     0.8199 f
+  dataout/Output_tri[7]/Z (TNBUFFX1)     0.2250     1.0449 f
+  dataout/Output[7] (tsb_n8)             0.0000     1.0449 f
+  dataBus[7] (inout)                     0.5193     1.5642 f
+  data arrival time                                 1.5642
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5642
+  -----------------------------------------------------------
+  slack (MET)                                       2.3642
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[0] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.4245     0.8245 f
+  in_reg/output[0] (ndff_n8)             0.0000     0.8245 f
+  dataout/Input[0] (tsb_n8)              0.0000     0.8245 f
+  dataout/Output_tri[0]/Z (TNBUFFX1)     0.2293     1.0538 f
+  dataout/Output[0] (tsb_n8)             0.0000     1.0538 f
+  dataBus[0] (inout)                     0.5193     1.5731 f
+  data arrival time                                 1.5731
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5731
+  -----------------------------------------------------------
+  slack (MET)                                       2.3731
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: dataBus[1] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.4250     0.8250 f
+  in_reg/output[1] (ndff_n8)             0.0000     0.8250 f
+  dataout/Input[1] (tsb_n8)              0.0000     0.8250 f
+  dataout/Output_tri[1]/Z (TNBUFFX1)     0.2294     1.0544 f
+  dataout/Output[1] (tsb_n8)             0.0000     1.0544 f
+  dataBus[1] (inout)                     0.5193     1.5737 f
+  data arrival time                                 1.5737
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5737
+  -----------------------------------------------------------
+  slack (MET)                                       2.3737
+
+
+  Startpoint: in_reg/output_reg[1]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[1]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[1]/Q (DFFARX1)       0.4250     0.8250 f
+  in_reg/output[1] (ndff_n8)             0.0000     0.8250 f
+  U7/Q (AND4X1)                          0.3018     1.1268 f
+  globalInt (out)                        0.4643     1.5912 f
+  data arrival time                                 1.5912
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.5912
+  -----------------------------------------------------------
+  slack (MET)                                       2.3912
+
+
+  Startpoint: in_reg/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  in_reg/output_reg[0]/CLK (DFFARX1)     0.0000     0.4000 r
+  in_reg/output_reg[0]/Q (DFFARX1)       0.4245     0.8245 f
+  in_reg/output[0] (ndff_n8)             0.0000     0.8245 f
+  U7/Q (AND4X1)                          0.3114     1.1359 f
+  globalInt (out)                        0.4643     1.6003 f
+  data arrival time                                 1.6003
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -1.6003
+  -----------------------------------------------------------
+  slack (MET)                                       2.4003
+
+
+  Startpoint: t1 (input port clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  t1 (in)                                0.0000     1.9000 r
+  U7/Q (AND4X1)                          0.2366     2.1366 r
+  globalInt (out)                        0.4643     2.6009 r
+  data arrival time                                 2.6009
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.6009
+  -----------------------------------------------------------
+  slack (MET)                                       3.4009
+
+
+  Startpoint: t1 (input port clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  t1 (in)                                0.0000     1.9000 f
+  U7/Q (AND4X1)                          0.2444     2.1444 f
+  globalInt (out)                        0.4643     2.6088 f
+  data arrival time                                 2.6088
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.6088
+  -----------------------------------------------------------
+  slack (MET)                                       3.4088
+
+
+  Startpoint: t0 (input port clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  t0 (in)                                0.0000     1.9000 r
+  U7/Q (AND4X1)                          0.2551     2.1551 r
+  globalInt (out)                        0.4643     2.6194 r
+  data arrival time                                 2.6194
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.6194
+  -----------------------------------------------------------
+  slack (MET)                                       3.4194
+
+
+  Startpoint: t0 (input port clocked by internal_clock)
+  Endpoint: globalInt (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 f
+  t0 (in)                                0.0000     1.9000 f
+  U7/Q (AND4X1)                          0.2619     2.1619 f
+  globalInt (out)                        0.4643     2.6262 f
+  data arrival time                                 2.6262
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.6262
+  -----------------------------------------------------------
+  slack (MET)                                       3.4262
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[0] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[0]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[0] (tsb_n8)             0.0000     2.2940 r
+  dataBus[0] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[1] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[1]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[1] (tsb_n8)             0.0000     2.2940 r
+  dataBus[1] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[2] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[2]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[2] (tsb_n8)             0.0000     2.2940 r
+  dataBus[2] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[3] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[3]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[3] (tsb_n8)             0.0000     2.2940 r
+  dataBus[3] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[4] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[4]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[4] (tsb_n8)             0.0000     2.2940 r
+  dataBus[4] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[5] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[5]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[5] (tsb_n8)             0.0000     2.2940 r
+  dataBus[5] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[6] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[6]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[6] (tsb_n8)             0.0000     2.2940 r
+  dataBus[6] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[7] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[7]/Z (TNBUFFX1)     0.2003     2.2940 r
+  dataout/Output[7] (tsb_n8)             0.0000     2.2940 r
+  dataBus[7] (inout)                     0.5193     2.8133 r
+  data arrival time                                 2.8133
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8133
+  -----------------------------------------------------------
+  slack (MET)                                       3.6133
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[0] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[0]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[0] (tsb_n8)             0.0000     2.2961 f
+  dataBus[0] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[1] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[1]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[1] (tsb_n8)             0.0000     2.2961 f
+  dataBus[1] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[2] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[2]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[2] (tsb_n8)             0.0000     2.2961 f
+  dataBus[2] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[3] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[3]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[3] (tsb_n8)             0.0000     2.2961 f
+  dataBus[3] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[4] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[4]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[4] (tsb_n8)             0.0000     2.2961 f
+  dataBus[4] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[5] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[5]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[5] (tsb_n8)             0.0000     2.2961 f
+  dataBus[5] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[6] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[6]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[6] (tsb_n8)             0.0000     2.2961 f
+  dataBus[6] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+  Startpoint: rd_wr (input port clocked by internal_clock)
+  Endpoint: dataBus[7] (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iEnableRegister_n8 ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  input external delay                   1.5000     1.9000 r
+  rd_wr (in)                             0.0000     1.9000 r
+  U11/QN (NOR2X0)                        0.1937     2.0937 f
+  dataout/E (tsb_n8)                     0.0000     2.0937 f
+  dataout/Output_tri[7]/Z (TNBUFFX1)     0.2025     2.2961 f
+  dataout/Output[7] (tsb_n8)             0.0000     2.2961 f
+  dataBus[7] (inout)                     0.5193     2.8154 f
+  data arrival time                                 2.8154
+
+  clock internal_clock (rise edge)       0.0000     0.0000
+  clock network delay (ideal)            0.4000     0.4000
+  clock uncertainty                      0.3000     0.7000
+  output external delay                 -1.5000    -0.8000
+  data required time                               -0.8000
+  -----------------------------------------------------------
+  data required time                               -0.8000
+  data arrival time                                -2.8154
+  -----------------------------------------------------------
+  slack (MET)                                       3.6154
+
+
+1

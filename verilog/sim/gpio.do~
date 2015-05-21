@@ -1,0 +1,96 @@
+vsim work.gpio
+add wave -position insertpoint  \
+sim:/gpio/E \
+sim:/gpio/clk \
+sim:/gpio/RW \
+sim:/gpio/rst \
+sim:/gpio/t0 \
+sim:/gpio/t1 \
+sim:/gpio/pwm \
+sim:/gpio/addressBus \
+sim:/gpio/dataBus \
+sim:/gpio/IOPINS \
+sim:/gpio/configOut \
+sim:/gpio/fromBus \
+sim:/gpio/wrBusEn \
+sim:/gpio/wrPinsEn \
+sim:/gpio/dataOut \
+sim:/gpio/pinsOut \
+sim:/gpio/dataEN \
+sim:/gpio/contEN \
+sim:/gpio/dataOutEn \
+sim:/gpio/dataOrModEn \
+sim:/gpio/dataOrMod
+force -freeze sim:/gpio/E 1 0
+force -freeze sim:/gpio/clk 0 0, 1 {5 ns} -r 10 ns
+force -freeze sim:/gpio/RW 1 0
+force -freeze sim:/gpio/rst 1 0
+force -freeze sim:/gpio/t0 1 0
+force -freeze sim:/gpio/t1 1 0
+force -freeze sim:/gpio/pwm 1 0
+force -freeze sim:/gpio/addressBus 65 0
+force -freeze sim:/gpio/dataBus F0 0
+run
+force -freeze sim:/gpio/rst 0 0
+run
+run
+force -freeze sim:/gpio/addressBus 66 0
+force -freeze sim:/gpio/dataBus F7 0
+run
+run
+force -freeze sim:/gpio/t1 0 0
+run
+force -freeze sim:/gpio/addressBus 64 0
+force -freeze sim:/gpio/dataBus FF 0
+run
+run
+force -freeze sim:/gpio/addressBus 66 0
+force -freeze sim:/gpio/dataBus F0 0
+run
+run
+force -freeze sim:/gpio/addressBus 65 0
+force -freeze sim:/gpio/dataBus 00 0
+run
+run
+force -freeze sim:/gpio/addressBus 64 0
+run
+run
+force -freeze sim:/gpio/addressBus 65 0
+force -freeze sim:/gpio/dataBus F0 0
+noforce sim:/gpio/IOPINS
+run
+run
+force -freeze sim:/gpio/RW 0 0
+noforce sim:/gpio/dataBus
+force -freeze sim:/gpio/IOPINS(7) 1 0
+force -freeze sim:/gpio/IOPINS(6) 1 0
+force -freeze sim:/gpio/IOPINS(5) 0 0
+force -freeze sim:/gpio/IOPINS(4) 0 0
+force -freeze sim:/gpio/addressBus 67 0
+run
+run
+force -freeze sim:/gpio/RW 1 0
+noforce sim:/gpio/IOPINS
+force -freeze sim:/gpio/dataBus CF 0
+force -freeze sim:/gpio/addressBus 64 0
+run
+run
+force -freeze sim:/gpio/RW 0 0
+noforce sim:/gpio/IOPINS
+force -freeze sim:/gpio/RW 0 0
+force -freeze sim:/gpio/addressBus 30 0
+run
+force -freeze sim:/gpio/dataBus 00 0
+run
+force -freeze sim:/gpio/RW 0 0
+noforce sim:/gpio/dataBus
+force -freeze sim:/gpio/addressBus 67 0 
+force -freeze sim:/gpio/IOPINS(7) 1 0
+force -freeze sim:/gpio/IOPINS(6) 0 0
+force -freeze sim:/gpio/IOPINS(5) 1 0
+force -freeze sim:/gpio/IOPINS(4) 0 0
+run
+run
+
+
+

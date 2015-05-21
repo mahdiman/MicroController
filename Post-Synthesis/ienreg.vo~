@@ -1,0 +1,74 @@
+
+module ndff_n8 ( Clk, Rst, E, d, \output  );
+  input [7:0] d;
+  output [7:0] \output ;
+  input Clk, Rst, E;
+  wire   n1, n2, n3, n4, n5, n6, n7, n8, n9, n10;
+  tri   [7:0] d;
+
+  DFFARX1 \output_reg[7]  ( .D(n10), .CLK(Clk), .RSTB(n9), .Q(\output [7]) );
+  DFFARX1 \output_reg[6]  ( .D(n8), .CLK(Clk), .RSTB(n9), .Q(\output [6]) );
+  DFFARX1 \output_reg[5]  ( .D(n7), .CLK(Clk), .RSTB(n9), .Q(\output [5]) );
+  DFFARX1 \output_reg[4]  ( .D(n6), .CLK(Clk), .RSTB(n9), .Q(\output [4]) );
+  DFFARX1 \output_reg[3]  ( .D(n5), .CLK(Clk), .RSTB(n9), .Q(\output [3]) );
+  DFFARX1 \output_reg[2]  ( .D(n4), .CLK(Clk), .RSTB(n9), .Q(\output [2]) );
+  DFFARX1 \output_reg[1]  ( .D(n3), .CLK(Clk), .RSTB(n9), .Q(\output [1]) );
+  DFFARX1 \output_reg[0]  ( .D(n2), .CLK(Clk), .RSTB(n9), .Q(\output [0]) );
+  AO22X1 U2 ( .IN1(d[0]), .IN2(E), .IN3(\output [0]), .IN4(n1), .Q(n2) );
+  AO22X1 U3 ( .IN1(d[1]), .IN2(E), .IN3(\output [1]), .IN4(n1), .Q(n3) );
+  AO22X1 U4 ( .IN1(d[2]), .IN2(E), .IN3(\output [2]), .IN4(n1), .Q(n4) );
+  AO22X1 U5 ( .IN1(d[3]), .IN2(E), .IN3(\output [3]), .IN4(n1), .Q(n5) );
+  AO22X1 U6 ( .IN1(d[4]), .IN2(E), .IN3(\output [4]), .IN4(n1), .Q(n6) );
+  AO22X1 U7 ( .IN1(d[5]), .IN2(E), .IN3(\output [5]), .IN4(n1), .Q(n7) );
+  AO22X1 U8 ( .IN1(d[6]), .IN2(E), .IN3(\output [6]), .IN4(n1), .Q(n8) );
+  INVX0 U9 ( .IN(Rst), .QN(n9) );
+  AO22X1 U10 ( .IN1(d[7]), .IN2(E), .IN3(\output [7]), .IN4(n1), .Q(n10) );
+  INVX0 U11 ( .IN(E), .QN(n1) );
+endmodule
+
+
+module tsb_n8 ( E, Input, Output );
+  input [7:0] Input;
+  output [7:0] Output;
+  input E;
+
+  tri   [7:0] Output;
+
+  TNBUFFHX1 \Output_tri[0]  ( .IN(Input[0]), .ENB(E), .Q(Output[0]) );
+  TNBUFFHX1 \Output_tri[1]  ( .IN(Input[1]), .ENB(E), .Q(Output[1]) );
+  TNBUFFHX1 \Output_tri[2]  ( .IN(Input[2]), .ENB(E), .Q(Output[2]) );
+  TNBUFFHX1 \Output_tri[3]  ( .IN(Input[3]), .ENB(E), .Q(Output[3]) );
+  TNBUFFHX1 \Output_tri[4]  ( .IN(Input[4]), .ENB(E), .Q(Output[4]) );
+  TNBUFFHX1 \Output_tri[5]  ( .IN(Input[5]), .ENB(E), .Q(Output[5]) );
+  TNBUFFHX1 \Output_tri[6]  ( .IN(Input[6]), .ENB(E), .Q(Output[6]) );
+  TNBUFFHX1 \Output_tri[7]  ( .IN(Input[7]), .ENB(E), .Q(Output[7]) );
+endmodule
+
+
+module iEnableRegister_n8 ( E, Clk, Rst, t0, t1, rd_wr, addressBus, dataBus, 
+        globalInt );
+  input [7:0] addressBus;
+  inout [7:0] dataBus;
+  input E, Clk, Rst, t0, t1, rd_wr;
+  output globalInt;
+  wire   data_rd, data_wr, n1, n2, n3, n4, n5;
+  wire   [7:0] dataIn;
+  tri   [7:0] dataBus;
+
+  ndff_n8 in_reg ( .Clk(Clk), .Rst(Rst), .E(data_rd), .d(dataBus), .\output (
+        dataIn) );
+  tsb_n8 dataout ( .E(data_wr), .Input(dataIn), .Output(dataBus) );
+  AND4X1 U7 ( .IN1(t1), .IN2(t0), .IN3(dataIn[1]), .IN4(dataIn[0]), .Q(
+        globalInt) );
+  OR4X1 U8 ( .IN1(addressBus[2]), .IN2(addressBus[1]), .IN3(n4), .IN4(n5), .Q(
+        n3) );
+  NAND4X0 U9 ( .IN1(addressBus[5]), .IN2(addressBus[4]), .IN3(E), .IN4(n2), 
+        .QN(n5) );
+  OR3X1 U10 ( .IN1(addressBus[7]), .IN2(addressBus[6]), .IN3(addressBus[3]), 
+        .Q(n4) );
+  NOR2X0 U11 ( .IN1(rd_wr), .IN2(n3), .QN(data_wr) );
+  INVX0 U12 ( .IN1(addressBus[0]), .QN(n2) );
+  NOR2X0 U13 ( .IN1(n3), .IN2(n1), .QN(data_rd) );
+  INVX0 U14 ( .IN1(rd_wr), .QN(n1) );
+endmodule
+

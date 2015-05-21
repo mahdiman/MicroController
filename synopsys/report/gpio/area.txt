@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : gpio_n8
+Version: E-2010.12-SP5-3
+Date   : Sat May  2 20:16:15 2015
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht_pg (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref/models/saed90nm_typ_ht_pg.db)
+    saed90nm_typ_ht (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref-old/models/saed90nm_typ_ht.db)
+
+Number of ports:                           31
+Number of nets:                            88
+Number of cells:                           50
+Number of combinational cells:             27
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          4
+Number of references:                      30
+
+Combinational area:        612.522005
+Noncombinational area:    1092.096020
+Net Interconnect area:      35.500966  
+
+Total cell area:          1704.618024
+Total area:               1740.118990
+1

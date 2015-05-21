@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : timer0_1
+Version: E-2010.12-SP5-3
+Date   : Mon Apr 27 13:55:57 2015
+****************************************
+
+
+   min_delay/hold ('CLOCK' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   u1/output_reg[3]/D           0.72           0.61 f        -0.11  (VIOLATED)
+   u1/output_reg[4]/D           0.72           0.61 f        -0.11  (VIOLATED)
+   u1/output_reg[5]/D           0.72           0.61 f        -0.11  (VIOLATED)
+   u1/output_reg[6]/D           0.72           0.61 f        -0.11  (VIOLATED)
+   u1/output_reg[7]/D           0.72           0.61 f        -0.11  (VIOLATED)
+   u1/output_reg[2]/D           0.72           0.63 f        -0.09  (VIOLATED)
+   u1/output_reg[1]/D           0.72           0.63 f        -0.09  (VIOLATED)
+   u1/output_reg[0]/D           0.72           0.65 f        -0.08  (VIOLATED)
+
+
+   min_delay/hold ('external_clock' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   timer0_out_reg/D             0.72           0.61 f        -0.12  (VIOLATED)
+   counter_reg[7]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[1]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[2]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[4]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[5]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[6]/D             0.72           0.62 f        -0.10  (VIOLATED)
+   counter_reg[0]/D             0.72           0.63 f        -0.10  (VIOLATED)
+   counter_reg[3]/D             0.72           0.63 f        -0.09  (VIOLATED)
+
+
+1

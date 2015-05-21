@@ -1,0 +1,97 @@
+# tsb
+read_file -format vhdl {/home/student/Desktop/VLSI-MAHDI/code/tsb.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/tsb.vhd}
+elaborate TSB -architecture TSB_ARCH -library DEFAULT -parameters "n = 8"
+link
+check_design
+compile
+report_timing > ../report/tsb.time
+report_area > ..report/tsb.area
+report_constraints  > ../report/tsb.const
+
+# DFF
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/dff.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/dff.vhd}
+elaborate DFF_BIT -architecture DFF_ARCH -library DEFAULT
+link
+check_design
+compile
+report_timing > ../report/dff.time
+report_area > ../report/dff.area
+report_constraints  > ../report/dff.const
+
+# NDFF
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/ndff.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/ndff.vhd}
+elaborate NDFF -library DEFAULT -parameters "n = 8"
+link
+check_design
+compile
+report_timing > ../report/ndff.time
+report_area > ../report/ndff.area
+report_constraints  > ../report/ndff.const
+
+# PWM
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/pwm.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/pwm.vhd}
+elaborate PWM -architecture PWM_ARCH -library DEFAULT -parameters "n = 8"
+link
+check_design
+compile
+report_timing > ../report/pwm.time
+report_area > ../report/pwm.area
+report_constraints  > ../report/pwm.const
+
+# MUX2
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/mux2.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/mux2.vhd}
+elaborate mux2 -architecture mux2_arch -library DEFAULT -parameters "n = 8"
+link
+check_design
+compile
+report_timing > ../report/mux2.time
+report_area > ../report/mux2.area
+report_constraints  > ../report/mux2.const
+
+# TSB
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/tsb_bit.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/tsb_bit.vhd}
+elaborate tsb_bit -architecture tsb_bit_arch -library DEFAULT
+link
+check_design
+compile
+report_timing > Report/tsb_bit.time
+report_area > Report/tsb_bit.area
+report_constraints  > ../report/tsb_bit.const
+
+# MUX2
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/mux2_bit.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/mux2_bit.vhd}
+elaborate mux2_bit -architecture mux2_bit_arch -library DEFAULT
+link
+check_design
+compile
+report_timing > ../report/mux2_bit.time
+report_area > ../report/mux2_bit.area
+report_constraints  > ../report/mux2_bit.const
+
+# GPIO
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/gpio.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/gpio.vhd}
+elaborate GPIO -architecture GPIO_ARCH -library DEFAULT -parameters "n = 8"
+link
+check_design
+compile
+report_timing > ../report/gpio.time
+report_area > ../report/gpio.area
+report_constraints  > ../report/gpio.const
+
+read_file -format vhdl {/home/student/VLSI-MAHDI/code/timer_1.vhd}
+analyze -library WORK -format vhdl {/home/student/VLSI-MAHDI/code/timer_1.vhd}
+elaborate TIMER1 -architecture ARCH_TIMER1 -library DEFAULT
+link
+check_design
+compile
+report_timing > Report/timer1.time
+report_area > Report/timer1.area
+report_constraints  > Report/timer1.const

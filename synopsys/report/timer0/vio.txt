@@ -1,0 +1,12 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : timer0_1
+Version: E-2010.12-SP5-3
+Date   : Sun May  3 02:22:11 2015
+****************************************
+
+This design has no violated constraints.
+
+1

@@ -1,0 +1,52 @@
+vsim -gui work.ienableregister
+# vsim -gui work.ienableregister 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ienableregister(ienableregister_arch)
+# Loading work.ndff(ndff_arch)
+# Loading work.tsb(tsb_arch)
+add wave -position insertpoint  \
+sim:/ienableregister/E \
+sim:/ienableregister/Clk \
+sim:/ienableregister/Rst \
+sim:/ienableregister/t0 \
+sim:/ienableregister/t1 \
+sim:/ienableregister/rd_wr \
+sim:/ienableregister/addressBus \
+sim:/ienableregister/dataBus \
+sim:/ienableregister/globalInt \
+sim:/ienableregister/dataIn \
+sim:/ienableregister/t0_out \
+sim:/ienableregister/t1_out \
+sim:/ienableregister/data_rd \
+sim:/ienableregister/data_wr
+force -freeze sim:/ienableregister/E 1 0
+force -freeze sim:/ienableregister/clk 0 0, 1 {5 ns} -r 10 ns
+force -freeze sim:/ienableregister/Rst 1 0
+force -freeze sim:/ienableregister/t0 1 0
+force -freeze sim:/ienableregister/t1 1 0
+force -freeze sim:/ienableregister/rd_wr 1 0
+force -freeze sim:/ienableregister/addressBus 30 0
+force -freeze sim:/ienableregister/dataBus 03 0
+run
+force -freeze sim:/ienableregister/Rst 0 0
+run
+run
+force -freeze sim:/ienableregister/dataBus 00 0
+run
+run
+force -freeze sim:/ienableregister/dataBus 03 0
+run
+run
+force -freeze sim:/ienableregister/addressBus 31 0
+force -freeze sim:/ienableregister/dataBus 00 0
+run
+run
+force -freeze sim:/ienableregister/addressBus 30 0
+force -freeze sim:/ienableregister/rd_wr 0 0
+noforce sim:/ienableregister/dataBus
+run
+run
+
+

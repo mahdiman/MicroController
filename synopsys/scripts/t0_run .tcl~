@@ -1,0 +1,30 @@
+# gpio
+
+#loading files
+read_file -format vhdl {../code/tsb.vhd}
+read_file -format vhdl {../code/ndff.vhd}
+read_file -format vhdl {../code/timer_0.vhd}
+
+#analyze designs
+analyze -library WORK -format vhdl {../code/tsb.vhd}
+analyze -library WORK -format vhdl {../code/ndff.vhd}
+analyze -library WORK -format vhdl {../code/timer_0.vhd}
+
+#elaborate
+elaborate TIMER0 -architecture ARCH_TIMER0 -library DEFAULT
+
+#link
+link
+
+#check design
+check_design
+
+#add constrain file
+source const_t0.sdc
+compile
+
+#reports
+report_timing > ../report/timer1.time
+report_area > ../report/timer1.area
+report_constraints  > ../report/timer1.const
+report_constraint -all_violators > ../report/timer1.vio

@@ -1,0 +1,135 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : pwm_n8
+Version: E-2010.12-SP5-3
+Date   : Sat May  2 20:15:19 2015
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht_pg
+Wire Load Model Mode: top
+
+  Startpoint: u1/output_reg[0]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: pwm_out_reg
+            (falling edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pwm_n8             ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  u1/output_reg[0]/CLK (DFFARX1)           0.00       0.40 r
+  u1/output_reg[0]/Q (DFFARX1)             0.39       0.79 r
+  u1/output[0] (ndff_n8_0)                 0.00       0.79 r
+  U53/QN (INVX0)                           0.09       0.88 f
+  U74/Q (AND2X1)                           0.15       1.03 f
+  U75/Q (OA22X1)                           0.21       1.24 f
+  U76/QN (NOR4X0)                          0.24       1.48 r
+  U44/QN (INVX0)                           0.15       1.63 f
+  U39/Q (AND2X1)                           0.18       1.80 f
+  U80/Q (OA222X1)                          0.32       2.12 f
+  U81/Q (AO221X1)                          0.20       2.33 f
+  U82/Q (OA221X1)                          0.23       2.55 f
+  U83/Q (AO221X1)                          0.20       2.76 f
+  U84/Q (OA221X1)                          0.23       2.98 f
+  U85/Q (OA22X1)                           0.18       3.16 f
+  U52/QN (AOI21X1)                         0.19       3.35 r
+  pwm_out_reg/D (DFFNARX1)                 0.03       3.38 r
+  data arrival time                                   3.38
+
+  clock internal_clock (fall edge)         5.00       5.00
+  clock network delay (ideal)              0.40       5.40
+  clock uncertainty                       -0.30       5.10
+  pwm_out_reg/CLK (DFFNARX1)               0.00       5.10 f
+  library setup time                       0.08       5.18
+  data required time                                  5.18
+  -----------------------------------------------------------
+  data required time                                  5.18
+  data arrival time                                  -3.38
+  -----------------------------------------------------------
+  slack (MET)                                         1.80
+
+
+  Startpoint: add_bus[5] (input port clocked by internal_clock)
+  Endpoint: u3/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pwm_n8             ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  input external delay                     1.00       1.40 f
+  add_bus[5] (in)                          0.00       1.40 f
+  U33/QN (NOR3X0)                          0.15       1.55 r
+  U32/Q (AND4X1)                           0.21       1.76 r
+  U31/QN (NAND3X0)                         0.13       1.90 f
+  U28/QN (NOR3X0)                          0.29       2.19 r
+  u3/E (ndff_n8_2)                         0.00       2.19 r
+  u3/U9/QN (INVX0)                         0.19       2.38 f
+  u3/U2/Q (AO22X1)                         0.22       2.60 f
+  u3/output_reg[0]/D (DFFARX1)             0.02       2.62 f
+  data arrival time                                   2.62
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  u3/output_reg[0]/CLK (DFFARX1)           0.00      10.10 r
+  library setup time                      -0.12       9.98
+  data required time                                  9.98
+  -----------------------------------------------------------
+  data required time                                  9.98
+  data arrival time                                  -2.62
+  -----------------------------------------------------------
+  slack (MET)                                         7.36
+
+
+  Startpoint: counter_reg[0]
+              (falling edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: counter_test[0]
+            (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pwm_n8             ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (fall edge)         5.00       5.00
+  clock network delay (ideal)              0.40       5.40
+  counter_reg[0]/CLK (DFFNARX1)            0.00       5.40 f
+  counter_reg[0]/Q (DFFNARX1)              0.60       6.00 f
+  counter_test[0] (out)                    0.60       6.59 f
+  data arrival time                                   6.59
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  output external delay                   -1.00       9.10
+  data required time                                  9.10
+  -----------------------------------------------------------
+  data required time                                  9.10
+  data arrival time                                  -6.59
+  -----------------------------------------------------------
+  slack (MET)                                         2.51
+
+
+1

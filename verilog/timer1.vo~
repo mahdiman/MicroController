@@ -1,0 +1,363 @@
+
+module ndff_n8_0 ( Clk, Rst, E, d, \output  );
+  input [7:0] d;
+  output [7:0] \output ;
+  input Clk, Rst, E;
+  wire   n2, n3, n4, n5, n6, n7, n8, n10, n1, n9;
+  tri   [7:0] d;
+
+  DFFARX1 \output_reg[7]  ( .D(n10), .CLK(Clk), .RSTB(n1), .Q(\output [7]) );
+  DFFARX1 \output_reg[6]  ( .D(n8), .CLK(Clk), .RSTB(n1), .Q(\output [6]) );
+  DFFARX1 \output_reg[5]  ( .D(n7), .CLK(Clk), .RSTB(n1), .Q(\output [5]) );
+  DFFARX1 \output_reg[4]  ( .D(n6), .CLK(Clk), .RSTB(n1), .Q(\output [4]) );
+  DFFARX1 \output_reg[3]  ( .D(n5), .CLK(Clk), .RSTB(n1), .Q(\output [3]) );
+  DFFARX1 \output_reg[2]  ( .D(n4), .CLK(Clk), .RSTB(n1), .Q(\output [2]) );
+  DFFARX1 \output_reg[1]  ( .D(n3), .CLK(Clk), .RSTB(n1), .Q(\output [1]) );
+  DFFARX1 \output_reg[0]  ( .D(n2), .CLK(Clk), .RSTB(n1), .Q(\output [0]) );
+  AO22X1 U2 ( .IN1(d[0]), .IN2(E), .IN3(\output [0]), .IN4(n9), .Q(n2) );
+  AO22X1 U3 ( .IN1(d[1]), .IN2(E), .IN3(\output [1]), .IN4(n9), .Q(n3) );
+  AO22X1 U4 ( .IN1(d[2]), .IN2(E), .IN3(\output [2]), .IN4(n9), .Q(n4) );
+  AO22X1 U5 ( .IN1(d[3]), .IN2(E), .IN3(\output [3]), .IN4(n9), .Q(n5) );
+  AO22X1 U6 ( .IN1(d[4]), .IN2(E), .IN3(\output [4]), .IN4(n9), .Q(n6) );
+  AO22X1 U7 ( .IN1(d[5]), .IN2(E), .IN3(\output [5]), .IN4(n9), .Q(n7) );
+  AO22X1 U8 ( .IN1(d[6]), .IN2(E), .IN3(\output [6]), .IN4(n9), .Q(n8) );
+  AO22X1 U10 ( .IN1(d[7]), .IN2(E), .IN3(\output [7]), .IN4(n9), .Q(n10) );
+  INVX0 U9 ( .IN(E), .QN(n9) );
+  INVX0 U11 ( .IN(Rst), .QN(n1) );
+endmodule
+
+
+module ndff_n8_2 ( Clk, Rst, E, d, \output  );
+  input [7:0] d;
+  output [7:0] \output ;
+  input Clk, Rst, E;
+  wire   n1, n9, n11, n12, n13, n14, n15, n16, n17, n18;
+  tri   [7:0] d;
+
+  DFFARX1 \output_reg[7]  ( .D(n11), .CLK(Clk), .RSTB(n1), .Q(\output [7]) );
+  DFFARX1 \output_reg[6]  ( .D(n12), .CLK(Clk), .RSTB(n1), .Q(\output [6]) );
+  DFFARX1 \output_reg[5]  ( .D(n13), .CLK(Clk), .RSTB(n1), .Q(\output [5]) );
+  DFFARX1 \output_reg[4]  ( .D(n14), .CLK(Clk), .RSTB(n1), .Q(\output [4]) );
+  DFFARX1 \output_reg[3]  ( .D(n15), .CLK(Clk), .RSTB(n1), .Q(\output [3]) );
+  DFFARX1 \output_reg[2]  ( .D(n16), .CLK(Clk), .RSTB(n1), .Q(\output [2]) );
+  DFFARX1 \output_reg[1]  ( .D(n17), .CLK(Clk), .RSTB(n1), .Q(\output [1]) );
+  DFFARX1 \output_reg[0]  ( .D(n18), .CLK(Clk), .RSTB(n1), .Q(\output [0]) );
+  AO22X1 U2 ( .IN1(d[0]), .IN2(E), .IN3(\output [0]), .IN4(n9), .Q(n18) );
+  AO22X1 U3 ( .IN1(d[1]), .IN2(E), .IN3(\output [1]), .IN4(n9), .Q(n17) );
+  AO22X1 U4 ( .IN1(d[2]), .IN2(E), .IN3(\output [2]), .IN4(n9), .Q(n16) );
+  AO22X1 U5 ( .IN1(d[3]), .IN2(E), .IN3(\output [3]), .IN4(n9), .Q(n15) );
+  AO22X1 U6 ( .IN1(d[4]), .IN2(E), .IN3(\output [4]), .IN4(n9), .Q(n14) );
+  AO22X1 U7 ( .IN1(d[5]), .IN2(E), .IN3(\output [5]), .IN4(n9), .Q(n13) );
+  AO22X1 U8 ( .IN1(d[6]), .IN2(E), .IN3(\output [6]), .IN4(n9), .Q(n12) );
+  AO22X1 U10 ( .IN1(d[7]), .IN2(E), .IN3(\output [7]), .IN4(n9), .Q(n11) );
+  INVX0 U9 ( .IN(E), .QN(n9) );
+  INVX0 U11 ( .IN(Rst), .QN(n1) );
+endmodule
+
+
+module ndff_n8_1 ( Clk, Rst, E, d, \output  );
+  input [7:0] d;
+  output [7:0] \output ;
+  input Clk, Rst, E;
+  wire   n1, n9, n11, n12, n13, n14, n15, n16, n17, n18;
+  tri   [7:0] d;
+
+  DFFARX1 \output_reg[7]  ( .D(n11), .CLK(Clk), .RSTB(n1), .Q(\output [7]) );
+  DFFARX1 \output_reg[6]  ( .D(n12), .CLK(Clk), .RSTB(n1), .Q(\output [6]) );
+  DFFARX1 \output_reg[5]  ( .D(n13), .CLK(Clk), .RSTB(n1), .Q(\output [5]) );
+  DFFARX1 \output_reg[4]  ( .D(n14), .CLK(Clk), .RSTB(n1), .Q(\output [4]) );
+  DFFARX1 \output_reg[3]  ( .D(n15), .CLK(Clk), .RSTB(n1), .Q(\output [3]) );
+  DFFARX1 \output_reg[2]  ( .D(n16), .CLK(Clk), .RSTB(n1), .Q(\output [2]) );
+  DFFARX1 \output_reg[1]  ( .D(n17), .CLK(Clk), .RSTB(n1), .Q(\output [1]) );
+  DFFARX1 \output_reg[0]  ( .D(n18), .CLK(Clk), .RSTB(n1), .Q(\output [0]) );
+  AO22X1 U2 ( .IN1(d[0]), .IN2(E), .IN3(\output [0]), .IN4(n9), .Q(n18) );
+  AO22X1 U3 ( .IN1(d[1]), .IN2(E), .IN3(\output [1]), .IN4(n9), .Q(n17) );
+  AO22X1 U4 ( .IN1(d[2]), .IN2(E), .IN3(\output [2]), .IN4(n9), .Q(n16) );
+  AO22X1 U5 ( .IN1(d[3]), .IN2(E), .IN3(\output [3]), .IN4(n9), .Q(n15) );
+  AO22X1 U6 ( .IN1(d[4]), .IN2(E), .IN3(\output [4]), .IN4(n9), .Q(n14) );
+  AO22X1 U7 ( .IN1(d[5]), .IN2(E), .IN3(\output [5]), .IN4(n9), .Q(n13) );
+  AO22X1 U8 ( .IN1(d[6]), .IN2(E), .IN3(\output [6]), .IN4(n9), .Q(n12) );
+  AO22X1 U10 ( .IN1(d[7]), .IN2(E), .IN3(\output [7]), .IN4(n9), .Q(n11) );
+  INVX0 U9 ( .IN(E), .QN(n9) );
+  INVX0 U11 ( .IN(Rst), .QN(n1) );
+endmodule
+
+
+module tsb_n8_0 ( E, Input, Output );
+  input [7:0] Input;
+  output [7:0] Output;
+  input E;
+
+  tri   [7:0] Output;
+
+  TNBUFFHX1 \Output_tri[0]  ( .INP(Input[0]), .ENB(E), .Z(Output[0]) );
+  TNBUFFHX1 \Output_tri[1]  ( .INP(Input[1]), .ENB(E), .Z(Output[1]) );
+  TNBUFFHX1 \Output_tri[2]  ( .INP(Input[2]), .ENB(E), .Z(Output[2]) );
+  TNBUFFHX1 \Output_tri[3]  ( .INP(Input[3]), .ENB(E), .Z(Output[3]) );
+  TNBUFFHX1 \Output_tri[4]  ( .INP(Input[4]), .ENB(E), .Z(Output[4]) );
+  TNBUFFHX1 \Output_tri[5]  ( .INP(Input[5]), .ENB(E), .Z(Output[5]) );
+  TNBUFFHX1 \Output_tri[6]  ( .INP(Input[6]), .ENB(E), .Z(Output[6]) );
+  TNBUFFHX1 \Output_tri[7]  ( .INP(Input[7]), .ENB(E), .Z(Output[7]) );
+endmodule
+
+
+module tsb_n8_2 ( E, Input, Output );
+  input [7:0] Input;
+  output [7:0] Output;
+  input E;
+
+  tri   [7:0] Output;
+
+  TNBUFFHX1 \Output_tri[0]  ( .INP(Input[0]), .ENB(E), .Z(Output[0]) );
+  TNBUFFHX1 \Output_tri[1]  ( .INP(Input[1]), .ENB(E), .Z(Output[1]) );
+  TNBUFFHX1 \Output_tri[2]  ( .INP(Input[2]), .ENB(E), .Z(Output[2]) );
+  TNBUFFHX1 \Output_tri[3]  ( .INP(Input[3]), .ENB(E), .Z(Output[3]) );
+  TNBUFFHX1 \Output_tri[4]  ( .INP(Input[4]), .ENB(E), .Z(Output[4]) );
+  TNBUFFHX1 \Output_tri[5]  ( .INP(Input[5]), .ENB(E), .Z(Output[5]) );
+  TNBUFFHX1 \Output_tri[6]  ( .INP(Input[6]), .ENB(E), .Z(Output[6]) );
+  TNBUFFHX1 \Output_tri[7]  ( .INP(Input[7]), .ENB(E), .Z(Output[7]) );
+endmodule
+
+
+module tsb_n8_1 ( E, Input, Output );
+  input [7:0] Input;
+  output [7:0] Output;
+  input E;
+
+  tri   [7:0] Output;
+
+  TNBUFFHX1 \Output_tri[0]  ( .INP(Input[0]), .ENB(E), .Z(Output[0]) );
+  TNBUFFHX1 \Output_tri[1]  ( .INP(Input[1]), .ENB(E), .Z(Output[1]) );
+  TNBUFFHX1 \Output_tri[2]  ( .INP(Input[2]), .ENB(E), .Z(Output[2]) );
+  TNBUFFHX1 \Output_tri[3]  ( .INP(Input[3]), .ENB(E), .Z(Output[3]) );
+  TNBUFFHX1 \Output_tri[4]  ( .INP(Input[4]), .ENB(E), .Z(Output[4]) );
+  TNBUFFHX1 \Output_tri[5]  ( .INP(Input[5]), .ENB(E), .Z(Output[5]) );
+  TNBUFFHX1 \Output_tri[6]  ( .INP(Input[6]), .ENB(E), .Z(Output[6]) );
+  TNBUFFHX1 \Output_tri[7]  ( .INP(Input[7]), .ENB(E), .Z(Output[7]) );
+endmodule
+
+
+module timer1_1_DW01_inc_0 ( A, SUM );
+  input [7:0] A;
+  output [7:0] SUM;
+
+  wire   [7:2] carry;
+
+  HADDX1 U1_1_6 ( .A0(A[6]), .B0(carry[6]), .C1(carry[7]), .SO(SUM[6]) );
+  HADDX1 U1_1_5 ( .A0(A[5]), .B0(carry[5]), .C1(carry[6]), .SO(SUM[5]) );
+  HADDX1 U1_1_4 ( .A0(A[4]), .B0(carry[4]), .C1(carry[5]), .SO(SUM[4]) );
+  HADDX1 U1_1_3 ( .A0(A[3]), .B0(carry[3]), .C1(carry[4]), .SO(SUM[3]) );
+  HADDX1 U1_1_2 ( .A0(A[2]), .B0(carry[2]), .C1(carry[3]), .SO(SUM[2]) );
+  HADDX1 U1_1_1 ( .A0(A[1]), .B0(A[0]), .C1(carry[2]), .SO(SUM[1]) );
+  INVX0 U1 ( .IN(A[0]), .QN(SUM[0]) );
+  XOR2X1 U2 ( .IN1(carry[7]), .IN2(A[7]), .Q(SUM[7]) );
+endmodule
+
+
+module timer1_1 ( clk, rst, en, rd_wr, add_bus, data_bus, timer1_out );
+  input [7:0] add_bus;
+  inout [7:0] data_bus;
+  input clk, rst, en, rd_wr;
+  output timer1_out;
+  wire   options_rd, options_wr, start_counter_rd, start_counter_wr,
+         end_counter_rd, end_counter_wr, inner_clk, N39, N43, N44, N45, N50,
+         N57, N58, N59, N60, N61, N62, N63, N64, N69, n46, n47, n48, n53, n54,
+         n55, n56, n57, n58, n59, n60, n61, n62, n63, n64, n65, n66, n67, n68,
+         n69, n70, n71, n72, n73, n74, n75, n76, n77, n78, n79, n80, n81, n82,
+         n83, n84, n85, n86, n87, n88, n89, n106, n109, n110, n111, n112,
+         \mult_add_98_aco/PROD_not[3] , \mult_add_119_aco/B[0] , n113, n114,
+         n115, n116, n117, n118, n119, n120, n121, n122, n123, n124, n125,
+         n126, n127, n128, n129, n130, n131, n132, n133, n134, n135, n136,
+         n137, n138, n139, n140, n141, n142, n143, n144, n145, n146, n147,
+         n148, n149, n150, n151, n152, n153, n154, n155, n156, n157, n158,
+         n159, n160, n161, n162, n163, n164, n165, n166, n167, n168, n169,
+         n170, n171, n172, n173, n174, n175, n176, n177, n178;
+  wire   [7:0] options;
+  wire   [7:0] start_counter;
+  wire   [7:0] end_counter;
+  wire   [3:0] clk_counter;
+  wire   [7:0] counter;
+  wire   [3:0] overflow;
+  tri   [7:0] data_bus;
+
+  DFFNASX1 \clk_counter_reg[0]  ( .D(n109), .CLK(clk), .SETB(n174), .Q(
+        clk_counter[0]) );
+  DFFASRX1 \counter_reg[7]  ( .D(N64), .CLK(inner_clk), .RSTB(n142), .SETB(
+        n122), .Q(counter[7]) );
+  DFFASRX1 \counter_reg[6]  ( .D(N63), .CLK(inner_clk), .RSTB(n141), .SETB(
+        n121), .Q(counter[6]) );
+  DFFASRX1 \counter_reg[5]  ( .D(N62), .CLK(inner_clk), .RSTB(n140), .SETB(
+        n120), .Q(counter[5]) );
+  DFFASRX1 \counter_reg[4]  ( .D(N61), .CLK(inner_clk), .RSTB(n139), .SETB(
+        n119), .Q(counter[4]) );
+  DFFASRX1 \counter_reg[3]  ( .D(N60), .CLK(inner_clk), .RSTB(n138), .SETB(
+        n118), .Q(counter[3]) );
+  DFFASRX1 \counter_reg[2]  ( .D(N59), .CLK(inner_clk), .RSTB(n137), .SETB(
+        n117), .Q(counter[2]) );
+  DFFASRX1 \counter_reg[1]  ( .D(N58), .CLK(inner_clk), .RSTB(n136), .SETB(
+        n116), .Q(counter[1]), .QN(n114) );
+  DFFASRX1 \counter_reg[0]  ( .D(N57), .CLK(inner_clk), .RSTB(n135), .SETB(
+        n115), .Q(counter[0]) );
+  DFFARX1 \overflow_reg[0]  ( .D(n89), .CLK(inner_clk), .RSTB(n168), .Q(
+        overflow[0]), .QN(n47) );
+  DFFARX1 timer1_out_reg ( .D(N69), .CLK(inner_clk), .RSTB(n168), .Q(
+        timer1_out) );
+  DFFARX1 \overflow_reg[1]  ( .D(n87), .CLK(inner_clk), .RSTB(n168), .Q(
+        overflow[1]), .QN(n46) );
+  DFFARX1 \overflow_reg[3]  ( .D(n88), .CLK(inner_clk), .RSTB(n168), .Q(
+        overflow[3]) );
+  DFFARX1 \overflow_reg[2]  ( .D(n85), .CLK(inner_clk), .RSTB(n168), .Q(
+        overflow[2]) );
+  AND3X1 U72 ( .IN1(n53), .IN2(n176), .IN3(add_bus[0]), .Q(start_counter_wr)
+         );
+  AND3X1 U73 ( .IN1(add_bus[0]), .IN2(n53), .IN3(rd_wr), .Q(start_counter_rd)
+         );
+  AND3X1 U74 ( .IN1(n177), .IN2(n176), .IN3(n53), .Q(options_wr) );
+  AND3X1 U75 ( .IN1(n53), .IN2(n177), .IN3(rd_wr), .Q(options_rd) );
+  AO22X1 U76 ( .IN1(n55), .IN2(overflow[1]), .IN3(n56), .IN4(n57), .Q(n87) );
+  AO22X1 U77 ( .IN1(n55), .IN2(overflow[3]), .IN3(n56), .IN4(n58), .Q(n88) );
+  AO22X1 U78 ( .IN1(n55), .IN2(overflow[0]), .IN3(n56), .IN4(n47), .Q(n89) );
+  XNOR2X1 U87 ( .IN1(n60), .IN2(inner_clk), .Q(n106) );
+  OR2X1 U88 ( .IN1(n166), .IN2(N39), .Q(n60) );
+  OR3X1 U90 ( .IN1(clk), .IN2(options[4]), .IN3(n166), .Q(n61) );
+  AO22X1 U91 ( .IN1(n169), .IN2(n167), .IN3(clk_counter[0]), .IN4(n62), .Q(
+        n109) );
+  AO22X1 U92 ( .IN1(N43), .IN2(n167), .IN3(clk_counter[1]), .IN4(n62), .Q(n110) );
+  AO22X1 U93 ( .IN1(N44), .IN2(n167), .IN3(clk_counter[2]), .IN4(n62), .Q(n111) );
+  AO22X1 U94 ( .IN1(N45), .IN2(n167), .IN3(clk_counter[3]), .IN4(n62), .Q(n112) );
+  AO22X1 U95 ( .IN1(n55), .IN2(overflow[2]), .IN3(n56), .IN4(n63), .Q(n85) );
+  NAND3X0 U96 ( .IN1(n175), .IN2(n177), .IN3(add_bus[1]), .QN(n64) );
+  NAND4X0 U97 ( .IN1(add_bus[6]), .IN2(add_bus[2]), .IN3(en), .IN4(n65), .QN(
+        n54) );
+  AND4X1 U98 ( .IN1(n66), .IN2(n67), .IN3(n68), .IN4(n69), .Q(N69) );
+  XNOR2X1 U99 ( .IN1(n70), .IN2(n71), .Q(n69) );
+  AOI22X1 U100 ( .IN1(N50), .IN2(n57), .IN3(\mult_add_119_aco/B[0] ), .IN4(
+        overflow[1]), .QN(n71) );
+  XNOR2X1 U101 ( .IN1(overflow[0]), .IN2(n46), .Q(n57) );
+  XOR2X1 U102 ( .IN1(n72), .IN2(n58), .Q(n68) );
+  XNOR2X1 U103 ( .IN1(n73), .IN2(overflow[3]), .Q(n58) );
+  NAND3X0 U104 ( .IN1(n75), .IN2(n76), .IN3(n70), .QN(n72) );
+  XOR2X1 U105 ( .IN1(n63), .IN2(n75), .Q(n67) );
+  XOR2X1 U106 ( .IN1(n74), .IN2(overflow[2]), .Q(n63) );
+  XNOR3X1 U107 ( .IN1(n47), .IN2(N50), .IN3(n76), .Q(n66) );
+  NAND4X0 U108 ( .IN1(n77), .IN2(n78), .IN3(n79), .IN4(n80), .QN(N39) );
+  XOR2X1 U109 ( .IN1(clk_counter[1]), .IN2(n81), .Q(n80) );
+  XOR2X1 U110 ( .IN1(clk_counter[0]), .IN2(n82), .Q(n79) );
+  XOR2X1 U111 ( .IN1(n83), .IN2(clk_counter[3]), .Q(n78) );
+  NAND3X0 U112 ( .IN1(n84), .IN2(n82), .IN3(n81), .QN(n83) );
+  XOR2X1 U113 ( .IN1(clk_counter[2]), .IN2(n84), .Q(n77) );
+  ndff_n8_0 u1 ( .Clk(clk), .Rst(rst), .E(options_rd), .d(data_bus), 
+        .\output (options) );
+  ndff_n8_2 u2 ( .Clk(clk), .Rst(rst), .E(start_counter_rd), .d(data_bus), 
+        .\output (start_counter) );
+  ndff_n8_1 u3 ( .Clk(clk), .Rst(rst), .E(end_counter_rd), .d(data_bus), 
+        .\output (end_counter) );
+  tsb_n8_0 u4 ( .E(start_counter_wr), .Input(start_counter), .Output(data_bus)
+         );
+  tsb_n8_2 u5 ( .E(end_counter_wr), .Input(end_counter), .Output(data_bus) );
+  tsb_n8_1 u6 ( .E(options_wr), .Input(options), .Output(data_bus) );
+  timer1_1_DW01_inc_0 add_119_aco ( .A({n113, n132, n131, n130, n129, n128, 
+        n127, n133}), .SUM({N64, N63, N62, N61, N60, N59, N58, N57}) );
+  DFFNASRQX1 inner_clk_reg ( .D(n106), .CLK(clk), .RSTB(n143), .SETB(n134), 
+        .Q(inner_clk) );
+  DFFNASRQX1 \clk_counter_reg[3]  ( .D(n112), .CLK(clk), .RSTB(n174), .SETB(
+        1'b1), .Q(clk_counter[3]) );
+  DFFNASRQX1 \clk_counter_reg[2]  ( .D(n111), .CLK(clk), .RSTB(n174), .SETB(
+        1'b1), .Q(clk_counter[2]) );
+  DFFNASRQX1 \clk_counter_reg[1]  ( .D(n110), .CLK(clk), .RSTB(n174), .SETB(
+        1'b1), .Q(clk_counter[1]) );
+  INVX0 U67 ( .IN(clk), .QN(n48) );
+  AND2X1 U114 ( .IN1(\mult_add_119_aco/B[0] ), .IN2(counter[7]), .Q(n113) );
+  NOR2X0 U115 ( .IN1(n55), .IN2(N69), .QN(n56) );
+  NAND2X0 U116 ( .IN1(n170), .IN2(n171), .QN(n82) );
+  INVX0 U117 ( .IN(n123), .QN(n169) );
+  INVX0 U118 ( .IN(n62), .QN(n167) );
+  NOR2X0 U119 ( .IN1(n176), .IN2(n64), .QN(end_counter_rd) );
+  NAND2X0 U120 ( .IN1(n166), .IN2(n174), .QN(n59) );
+  INVX0 U121 ( .IN(N50), .QN(\mult_add_119_aco/B[0] ) );
+  NOR2X0 U122 ( .IN1(N50), .IN2(N69), .QN(n55) );
+  INVX0 U123 ( .IN(n86), .QN(n168) );
+  NAND2X0 U124 ( .IN1(n172), .IN2(n173), .QN(n76) );
+  OR2X1 U125 ( .IN1(n59), .IN2(n165), .Q(n115) );
+  OR2X1 U126 ( .IN1(n59), .IN2(n164), .Q(n116) );
+  OR2X1 U127 ( .IN1(n59), .IN2(n163), .Q(n117) );
+  OR2X1 U128 ( .IN1(n59), .IN2(n162), .Q(n118) );
+  OR2X1 U129 ( .IN1(n59), .IN2(n161), .Q(n119) );
+  OR2X1 U130 ( .IN1(n59), .IN2(n160), .Q(n120) );
+  OR2X1 U131 ( .IN1(n59), .IN2(n159), .Q(n121) );
+  OR2X1 U132 ( .IN1(n59), .IN2(n158), .Q(n122) );
+  AND2X1 U133 ( .IN1(clk_counter[0]), .IN2(N39), .Q(n123) );
+  INVX0 U134 ( .IN(options[2]), .QN(n171) );
+  INVX0 U135 ( .IN(options[3]), .QN(n170) );
+  AND2X1 U136 ( .IN1(clk_counter[2]), .IN2(N39), .Q(n124) );
+  AND2X1 U137 ( .IN1(clk_counter[1]), .IN2(N39), .Q(n125) );
+  NAND2X0 U138 ( .IN1(options[2]), .IN2(n170), .QN(n81) );
+  NAND2X0 U139 ( .IN1(options[3]), .IN2(n171), .QN(n84) );
+  XNOR2X1 U140 ( .IN1(n126), .IN2(\mult_add_98_aco/PROD_not[3] ), .Q(N45) );
+  AND2X1 U141 ( .IN1(n124), .IN2(n178), .Q(n126) );
+  INVX0 U142 ( .IN(options[5]), .QN(n166) );
+  NAND2X0 U143 ( .IN1(options[4]), .IN2(options[5]), .QN(n62) );
+  NOR4X0 U144 ( .IN1(add_bus[7]), .IN2(add_bus[5]), .IN3(add_bus[4]), .IN4(
+        add_bus[3]), .QN(n65) );
+  NOR2X0 U145 ( .IN1(rd_wr), .IN2(n64), .QN(end_counter_wr) );
+  INVX0 U146 ( .IN(n54), .QN(n175) );
+  NOR2X0 U147 ( .IN1(n54), .IN2(add_bus[1]), .QN(n53) );
+  INVX0 U148 ( .IN(rd_wr), .QN(n176) );
+  INVX0 U149 ( .IN(add_bus[0]), .QN(n177) );
+  INVX0 U150 ( .IN(rst), .QN(n174) );
+  NOR2X0 U151 ( .IN1(n47), .IN2(n46), .QN(n74) );
+  AND2X1 U152 ( .IN1(counter[1]), .IN2(\mult_add_119_aco/B[0] ), .Q(n127) );
+  AND2X1 U153 ( .IN1(counter[2]), .IN2(\mult_add_119_aco/B[0] ), .Q(n128) );
+  AND2X1 U154 ( .IN1(counter[3]), .IN2(\mult_add_119_aco/B[0] ), .Q(n129) );
+  AND2X1 U155 ( .IN1(counter[4]), .IN2(\mult_add_119_aco/B[0] ), .Q(n130) );
+  AND2X1 U156 ( .IN1(counter[5]), .IN2(\mult_add_119_aco/B[0] ), .Q(n131) );
+  AND2X1 U157 ( .IN1(counter[6]), .IN2(\mult_add_119_aco/B[0] ), .Q(n132) );
+  INVX0 U158 ( .IN(options[0]), .QN(n173) );
+  INVX0 U159 ( .IN(options[1]), .QN(n172) );
+  NAND2X0 U160 ( .IN1(options[5]), .IN2(n174), .QN(n86) );
+  NAND2X0 U161 ( .IN1(overflow[2]), .IN2(n74), .QN(n73) );
+  AND2X1 U162 ( .IN1(counter[0]), .IN2(\mult_add_119_aco/B[0] ), .Q(n133) );
+  INVX0 U163 ( .IN(start_counter[0]), .QN(n165) );
+  INVX0 U164 ( .IN(start_counter[1]), .QN(n164) );
+  INVX0 U165 ( .IN(start_counter[2]), .QN(n163) );
+  INVX0 U166 ( .IN(start_counter[3]), .QN(n162) );
+  INVX0 U167 ( .IN(start_counter[4]), .QN(n161) );
+  INVX0 U168 ( .IN(start_counter[5]), .QN(n160) );
+  INVX0 U169 ( .IN(start_counter[6]), .QN(n159) );
+  INVX0 U170 ( .IN(start_counter[7]), .QN(n158) );
+  NAND2X0 U171 ( .IN1(options[0]), .IN2(n172), .QN(n70) );
+  NAND2X0 U172 ( .IN1(options[1]), .IN2(n173), .QN(n75) );
+  OR3X1 U173 ( .IN1(n48), .IN2(options[4]), .IN3(n86), .Q(n134) );
+  INVX0 U174 ( .IN(end_counter[0]), .QN(n156) );
+  AOI21X1 U175 ( .IN1(n166), .IN2(n165), .IN3(rst), .QN(n135) );
+  AOI21X1 U176 ( .IN1(n166), .IN2(n164), .IN3(rst), .QN(n136) );
+  AOI21X1 U177 ( .IN1(n166), .IN2(n163), .IN3(rst), .QN(n137) );
+  AOI21X1 U178 ( .IN1(n166), .IN2(n162), .IN3(rst), .QN(n138) );
+  AOI21X1 U179 ( .IN1(n166), .IN2(n161), .IN3(rst), .QN(n139) );
+  AOI21X1 U180 ( .IN1(n166), .IN2(n160), .IN3(rst), .QN(n140) );
+  AOI21X1 U181 ( .IN1(n166), .IN2(n159), .IN3(rst), .QN(n141) );
+  AOI21X1 U182 ( .IN1(n166), .IN2(n158), .IN3(rst), .QN(n142) );
+  AND2X1 U183 ( .IN1(n174), .IN2(n61), .Q(n143) );
+  INVX0 U184 ( .IN(end_counter[1]), .QN(n157) );
+  NAND2X0 U185 ( .IN1(N39), .IN2(clk_counter[3]), .QN(
+        \mult_add_98_aco/PROD_not[3] ) );
+  XNOR2X1 U186 ( .IN1(end_counter[6]), .IN2(counter[6]), .Q(n147) );
+  XNOR2X1 U187 ( .IN1(end_counter[5]), .IN2(counter[5]), .Q(n146) );
+  XNOR2X1 U188 ( .IN1(end_counter[4]), .IN2(counter[4]), .Q(n145) );
+  XNOR2X1 U189 ( .IN1(end_counter[3]), .IN2(counter[3]), .Q(n144) );
+  NAND4X0 U190 ( .IN1(n147), .IN2(n146), .IN3(n145), .IN4(n144), .QN(n155) );
+  XNOR2X1 U191 ( .IN1(end_counter[2]), .IN2(counter[2]), .Q(n149) );
+  XNOR2X1 U192 ( .IN1(end_counter[7]), .IN2(counter[7]), .Q(n148) );
+  NAND2X0 U193 ( .IN1(n149), .IN2(n148), .QN(n154) );
+  NOR2X0 U194 ( .IN1(n156), .IN2(counter[0]), .QN(n150) );
+  OA22X1 U195 ( .IN1(end_counter[1]), .IN2(n150), .IN3(n150), .IN4(n114), .Q(
+        n153) );
+  AND2X1 U196 ( .IN1(counter[0]), .IN2(n156), .Q(n151) );
+  OA22X1 U197 ( .IN1(n151), .IN2(n157), .IN3(counter[1]), .IN4(n151), .Q(n152)
+         );
+  NOR4X0 U198 ( .IN1(n155), .IN2(n154), .IN3(n153), .IN4(n152), .QN(N50) );
+  XOR2X1 U199 ( .IN1(n124), .IN2(n178), .Q(N44) );
+  AND2X1 U200 ( .IN1(n125), .IN2(n123), .Q(n178) );
+  XNOR2X1 U201 ( .IN1(n125), .IN2(n169), .Q(N43) );
+endmodule
+

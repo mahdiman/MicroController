@@ -1,0 +1,140 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : timer1_1
+Version: E-2010.12-SP5-3
+Date   : Sat May  2 20:15:33 2015
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht_pg
+Wire Load Model Mode: top
+
+  Startpoint: u1/output_reg[3]
+              (rising edge-triggered flip-flop clocked by internal_clock)
+  Endpoint: clk_counter_reg[3]
+            (falling edge-triggered flip-flop clocked by internal_clock)
+  Path Group: CLOCK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  u1/output_reg[3]/CLK (DFFARX1)           0.00       0.40 r
+  u1/output_reg[3]/Q (DFFARX1)             0.43       0.83 f
+  u1/output[3] (ndff_n8_0)                 0.00       0.83 f
+  U135/QN (INVX0)                          0.09       0.92 r
+  U138/QN (NAND2X0)                        0.12       1.04 f
+  U112/QN (NAND3X0)                        0.14       1.18 r
+  U111/Q (XOR2X1)                          0.23       1.41 r
+  U108/QN (NAND4X0)                        0.14       1.55 f
+  U133/Q (AND2X1)                          0.17       1.72 f
+  U200/Q (AND2X1)                          0.15       1.87 f
+  U141/Q (AND2X1)                          0.14       2.02 f
+  U140/Q (XNOR2X1)                         0.22       2.24 f
+  U94/Q (AO22X1)                           0.20       2.44 f
+  clk_counter_reg[3]/D (DFFNASRQX1)        0.02       2.46 f
+  data arrival time                                   2.46
+
+  clock internal_clock (fall edge)         5.00       5.00
+  clock network delay (ideal)              0.40       5.40
+  clock uncertainty                       -0.30       5.10
+  clk_counter_reg[3]/CLK (DFFNASRQX1)      0.00       5.10 f
+  library setup time                      -0.04       5.06
+  data required time                                  5.06
+  -----------------------------------------------------------
+  data required time                                  5.06
+  data arrival time                                  -2.46
+  -----------------------------------------------------------
+  slack (MET)                                         2.60
+
+
+  Startpoint: add_bus[3] (input port clocked by internal_clock)
+  Endpoint: u3/output_reg[0]
+            (rising edge-triggered flip-flop clocked by internal_clock)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  input external delay                     1.50       1.90 f
+  add_bus[3] (in)                          0.00       1.90 f
+  U144/QN (NOR4X0)                         0.22       2.12 r
+  U97/QN (NAND4X0)                         0.13       2.24 f
+  U146/QN (INVX0)                          0.09       2.33 r
+  U96/QN (NAND3X0)                         0.10       2.43 f
+  U119/QN (NOR2X0)                         0.22       2.65 r
+  u3/E (ndff_n8_1)                         0.00       2.65 r
+  u3/U9/QN (INVX0)                         0.18       2.83 f
+  u3/U2/Q (AO22X1)                         0.22       3.05 f
+  u3/output_reg[0]/D (DFFARX1)             0.02       3.07 f
+  data arrival time                                   3.07
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  u3/output_reg[0]/CLK (DFFARX1)           0.00      10.10 r
+  library setup time                      -0.12       9.98
+  data required time                                  9.98
+  -----------------------------------------------------------
+  data required time                                  9.98
+  data arrival time                                  -3.07
+  -----------------------------------------------------------
+  slack (MET)                                         6.91
+
+
+  Startpoint: add_bus[3] (input port clocked by internal_clock)
+  Endpoint: data_bus[0]
+            (output port clocked by internal_clock)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  timer1_1           ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock internal_clock (rise edge)         0.00       0.00
+  clock network delay (ideal)              0.40       0.40
+  input external delay                     1.50       1.90 f
+  add_bus[3] (in)                          0.00       1.90 f
+  U144/QN (NOR4X0)                         0.22       2.12 r
+  U97/QN (NAND4X0)                         0.13       2.24 f
+  U146/QN (INVX0)                          0.09       2.33 r
+  U96/QN (NAND3X0)                         0.10       2.43 f
+  U145/QN (NOR2X0)                         0.31       2.74 r
+  u5/E (tsb_n8_2)                          0.00       2.74 r
+  u5/Output_tri[0]/Z (TNBUFFX1)            0.31       3.06 f
+  u5/Output[0] (tsb_n8_2)                  0.00       3.06 f
+  data_bus[0] (inout)                      0.94       3.99 f
+  data arrival time                                   3.99
+
+  clock internal_clock (rise edge)        10.00      10.00
+  clock network delay (ideal)              0.40      10.40
+  clock uncertainty                       -0.30      10.10
+  output external delay                   -1.00       9.10
+  data required time                                  9.10
+  -----------------------------------------------------------
+  data required time                                  9.10
+  data arrival time                                  -3.99
+  -----------------------------------------------------------
+  slack (MET)                                         5.11
+
+
+1

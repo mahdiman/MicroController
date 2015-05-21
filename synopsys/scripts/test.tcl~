@@ -1,0 +1,33 @@
+# gpio
+
+#loading files
+read_file -format vhdl {../code/tsb_bit.vhd}
+read_file -format vhdl {../code/dff.vhd}
+read_file -format vhdl {../code/ndff.vhd}
+read_file -format vhdl {../code/mux2_bit.vhd}
+read_file -format vhdl {../code/gpio.vhd}
+
+#analyze designs
+analyze -library WORK -format vhdl {../code/tsb_bit.vhd}
+analyze -library WORK -format vhdl {../code/dff.vhd}
+analyze -library WORK -format vhdl {../code/ndff.vhd}
+analyze -library WORK -format vhdl {../code/mux2_bit.vhd}
+
+#elaborate
+elaborate GPIO -architecture GPIO_ARCH -library DEFAULT -parameters "n = 8"
+
+#link
+link
+
+#check design
+check_design
+
+#add constrain file
+source const_gpio.sdc
+compile
+
+#reports
+report_timing > ../report/gpio.time
+report_area > ../report/gpio.area
+report_constraints  > ../report/gpio.const
+rc > ../report/gpio.vio

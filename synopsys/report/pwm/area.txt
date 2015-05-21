@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : pwm_n8
+Version: E-2010.12-SP5-3
+Date   : Sat May  2 20:15:19 2015
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht_pg (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref/models/saed90nm_typ_ht_pg.db)
+    saed90nm_typ_ht (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref-old/models/saed90nm_typ_ht.db)
+
+Number of ports:                           29
+Number of nets:                           122
+Number of cells:                           76
+Number of combinational cells:             60
+Number of sequential cells:                 9
+Number of macros:                           0
+Number of buf/inv:                         18
+Number of references:                      24
+
+Combinational area:        927.675007
+Noncombinational area:    1396.224026
+Net Interconnect area:      48.972590  
+
+Total cell area:          2323.899033
+Total area:               2372.871623
+1

@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : constraint
+Design : gpio_n8
+Version: E-2010.12-SP5-3
+Date   : Tue Apr 28 05:57:29 2015
+****************************************
+
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    CLOCK                        8.93      1.00      8.93
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      9.46      1.00      9.46
+    internal_clock               0.00      1.00      0.00
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                 18.38
+
+                              Total Neg  Critical
+    Group (critical_range)      Slack    Endpoints   Cost
+    -----------------------------------------------------
+    CLOCK                      227.87         4     35.71
+    INPUTS                       0.00         0      0.00
+    OUTPUTS                     75.65         5     47.28
+    internal_clock               0.00         0      0.00
+    default                      0.00         0      0.00
+    -----------------------------------------------------
+    critical_range                                  82.99
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    CLOCK                        0.00      1.00      0.00
+    INPUTS                       0.00      1.00      0.00
+    OUTPUTS                      0.00      1.00      0.00
+    internal_clock               0.00      1.00      0.00
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    max_delay/setup                                 18.38 (VIOLATED)
+    critical_range                                  82.99 (VIOLATED)
+    min_delay/hold                                   0.00 (MET)
+    max_area                                         0.00 (MET)
+
+
+1

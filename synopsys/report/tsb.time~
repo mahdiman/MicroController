@@ -1,0 +1,36 @@
+Information: Updating graph... (UID-83)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dff_bit
+Version: E-2010.12-SP5-3
+Date   : Thu Apr 23 16:50:26 2015
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: output_reg (rising edge-triggered flip-flop)
+  Endpoint: output (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dff_bit            ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  output_reg/CLK (DFFARX1)                 0.00       0.00 r
+  output_reg/Q (DFFARX1)                   0.33       0.33 f
+  output (out)                             0.00       0.33 f
+  data arrival time                                   0.33
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

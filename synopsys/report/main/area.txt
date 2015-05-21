@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : micro_controller_1
+Version: E-2010.12-SP5-3
+Date   : Sun May  3 02:19:26 2015
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht_pg (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref/models/saed90nm_typ_ht_pg.db)
+    saed90nm_typ_ht (File: /home/ahmad/Desktop/vlsi-project/synopsys/ref-old/models/saed90nm_typ_ht.db)
+
+Number of ports:                           30
+Number of nets:                            33
+Number of cells:                            5
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                       5
+
+Combinational area:       4314.539027
+Noncombinational area:    5936.029097
+Net Interconnect area:     241.460254  
+
+Total cell area:          10250.568124
+Total area:               10492.028378
+1
